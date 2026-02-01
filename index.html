@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X TKJ 1 - Dashboard Kelas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="assets/icons/tkj-icon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>🔥 X TKJ 1</h1>
+            <p>SMK Jakarta Timur 1</p>
+        </div>
+        <div class="nav-links">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#presensi">Presensi</a>
+            <a href="#tugas">Tugas</a>
+            <a href="#nilai">Nilai</a>
+            <a href="#chat">Chat</a>
+            <a href="#lab">Lab</a>
+            <button onclick="login()" id="loginBtn">Login Siswa</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="hero">
+            <h2>Selamat Datang di <span class="highlight">Dashboard Digital</span></h2>
+            <p>Platform pembelajaran modern untuk kelas X TKJ 1</p>
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>43</h3>
+                    <p>Siswa Aktif</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15</h3>
+                    <p>Mata Pelajaran</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15</h3>
+                    <p>Tugas Aktif</p>
+                </div>
+                <div class="stat-card">
+                    <h3>98,99%</h3>
+                    <p>Presensi Hari Ini</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="features">
+            <div class="feature-card" onclick="openPresensi()">
+                <div class="icon">📅</div>
+                <h3>Presensi QR</h3>
+                <p>Scan QR code untuk presensi real-time</p>
+            </div>
+            <div class="feature-card" onclick="openTugas()">
+                <div class="icon">📝</div>
+                <h3>Manajemen Tugas</h3>
+                <p>Lacak deadline & submit tugas online</p>
+            </div>
+            <div class="feature-card" onclick="openNilai()">
+                <div class="icon">📊</div>
+                <h3>Raport Digital</h3>
+                <p>Pantau nilai & ranking secara real-time</p>
+            </div>
+            <div class="feature-card" onclick="openChat()">
+                <div class="icon">💬</div>
+                <h3>Chat Kelas</h3>
+                <p>Diskusi grup & konsultasi dengan guru</p>
+            </div>
+            <div class="feature-card" onclick="openLab()">
+                <div class="icon">💻</div>
+                <h3>Lab Virtual</h3>
+                <p>Praktikum jaringan & coding online</p>
+            </div>
+            <div class="feature-card" onclick="openJadwal()">
+                <div class="icon">⏰</div>
+                <h3>Jadwal Pintar</h3>
+                <p>Jadwal pelajaran dengan notifikasi</p>
+            </div>
+        </div>
+
+        <!-- Live Data -->
+        <div class="live-data">
+            <h3>📈 Aktivitas Terkini</h3>
+            <div id="activityFeed"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 X TKJ 1 - Dibuat dengan ❤️ oleh Kelas</p>
+        <p>Status: <span id="status">Online</span> | Siswa Online: <span id="onlineCount">43</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
