@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nama": "Muhammad Arif Suyuti",
+    "absen": 1,
+    "email": "arif@tkj1.sch.id",
+    "foto": "assets/images/siswa/arif.jpg",
+    "presensi_today": true,
+    "rata_rata_nilai": 85,
+    "ranking": 3
+  },
+  {
+    "id": 2,
+    "nama": "Fiqri Ardiansyah",
+    "absen": 2,
+    "email": "fiqri@tkj1.sch.id",
+    "foto": "assets/images/siswa/fiqri.jpg",
+    "presensi_today": true,
+    "rata_rata_nilai": 92,
+    "ranking": 1
+  }
+]
