@@ -1,22 +1,54 @@
 [
   {
     "id": 1,
-    "nama": "Muhammad Arif Suyuti",
+    "nis": "202401001",
+    "nama": "Muhammad Aeif Suyuti",
+    "kelas": "X TKJ 1",
     "absen": 1,
     "email": "arif@tkj1.sch.id",
-    "foto": "assets/images/siswa/arif.jpg",
-    "presensi_today": true,
-    "rata_rata_nilai": 85,
-    "ranking": 3
+    "telepon": "081932999602",
+    "alamat": "Jl. Reporter",
+    "foto": "assets/images/siswa/1.jpg",
+    "avatar": "assets/avatars/1.svg",
+    "password_hash": "hashed_password_here",
+    "role": "siswa",
+    "status": "aktif",
+    "tanggal_daftar": "2024-01-15",
+    "last_login": "2024-03-10 08:30:00"
   },
   {
     "id": 2,
+    "nis": "202401002",
     "nama": "Fiqri Ardiansyah",
+    "kelas": "X TKJ 1",
     "absen": 2,
     "email": "fiqri@tkj1.sch.id",
-    "foto": "assets/images/siswa/fiqri.jpg",
-    "presensi_today": true,
-    "rata_rata_nilai": 92,
-    "ranking": 1
+    "telepon": "081241732982",
+    "alamat": "Jl. Pancawarga",
+    "foto": "assets/images/siswa/2.jpg",
+    "avatar": "assets/avatars/2.svg",
+    "password_hash": "hashed_password_here",
+    "role": "siswa",
+    "status": "aktif",
+    "tanggal_daftar": "2024-01-15",
+    "last_login": "2024-03-10 08:25:00"
   }
+  {
+    "id": 3,
+    "nis": "202401003",
+    "nama": "Destian Gusti Pratama",
+    "kelas": "X TKJ 1",
+    "absen": 3,
+    "email": "destian@tkj1.sch.id",
+    "telepon": "083132448213",
+    "alamat": "Jl. Tanjung Lengkong",
+    "foto": "assets/images/siswa/2.jpg",
+    "avatar": "assets/avatars/2.svg",
+    "password_hash": "hashed_password_here",
+    "role": "siswa",
+    "status": "aktif",
+    "tanggal_daftar": "2024-01-15",
+    "last_login": "2024-03-10 08:25:00"
+  }
+  // ... hingga 36 siswa
 ]
