@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "mapel": "Jaringan Dasar",
+    "judul": "Konfigurasi VLAN",
+    "deskripsi": "Buat konfigurasi VLAN untuk 3 departemen",
+    "deadline": "2024-03-15",
+    "status": "pending",
+    "submitted": false
+  },
+  {
+    "id": 2,
+    "mapel": "Pemrograman Web",
+    "judul": "Website Portfolio",
+    "deskripsi": "Buat website portfolio menggunakan HTML/CSS/JS",
+    "deadline": "2024-03-20",
+    "status": "pending",
+    "submitted": false
+  }
+]
